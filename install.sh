@@ -1,4 +1,4 @@
-mkdir .linuxDevKit
+mkdir ~/.linuxDevKit
 
 if [ -f ~/.bash_aliases ]; then
     echo ". ~/.linuxDevKit/bash_aliases.sh" >> ~/.bash_aliases
