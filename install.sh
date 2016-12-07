@@ -12,3 +12,4 @@ wget -O ~/.linuxDevKit/basic http://philippeassis.com/linuxDevKit/basic.sh
 wget -O ~/.linuxDevKit/gitnpm http://philippeassis.com/linuxDevKit/gitnpm.sh
 wget -O ~/.linuxDevKit/mongo http://philippeassis.com/linuxDevKit/mongo.sh
 
+source ~/.bashrc
