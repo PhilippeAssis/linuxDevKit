@@ -52,9 +52,9 @@ if ask "Are you sure to install LinuxDevKit?" N; then
     
     echo "Downloading Files..."
     wget -O ~/.linuxDevKit/bash_aliases.sh http://philippeassis.com/linuxDevKit/bash_aliases.sh
-    wget -O ~/.linuxDevKit/basic http://philippeassis.com/linuxDevKit/basic.sh 
-    wget -O ~/.linuxDevKit/gitnpm http://philippeassis.com/linuxDevKit/gitnpm.sh
-    wget -O ~/.linuxDevKit/mongo http://philippeassis.com/linuxDevKit/mongo.sh
+    wget -O ~/.linuxDevKit/basic.sh http://philippeassis.com/linuxDevKit/basic.sh 
+    wget -O ~/.linuxDevKit/gitnpm.sh http://philippeassis.com/linuxDevKit/gitnpm.sh
+    wget -O ~/.linuxDevKit/mongo.sh http://philippeassis.com/linuxDevKit/mongo.sh
     
     echo "Updating bash..."
     source ~/.bashrc
