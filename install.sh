@@ -56,7 +56,7 @@ if ask "Are you sure to install LinuxDevKit?" N; then
     wget -O ~/.linuxDevKit/gitnpm http://philippeassis.com/linuxDevKit/gitnpm.sh
     wget -O ~/.linuxDevKit/mongo http://philippeassis.com/linuxDevKit/mongo.sh
     
-    "Updating bash..."
+    echo "Updating bash..."
     source ~/.bashrc
     
     echo "All ready!"
