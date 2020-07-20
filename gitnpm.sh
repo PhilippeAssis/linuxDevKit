@@ -1,9 +1,10 @@
 gitall(){
-if [ -z "$1" ]; then
-	git add --all && git commit -m all && git push origin master
-else
-	git add --all && git commit -m \"$1\" && git push origin master
-fi
+    if [ -z "$1" ]; then
+        git add --all && git commit -m all && git push
+    else
+        str="'$*'"
+        git add --all && git commit -m "$str" && git push
+    fi
 }
 
 # gittag $tag $comment
